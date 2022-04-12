@@ -1,0 +1,94 @@
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/images/coffee-shop-1209863_1920_edited\ \(1\).jpeg');
+    
+}
+
+/* Container */
+.container{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 25px 25px 40px black;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: C6A07C;
+
+}
+.form h2{
+    font-size: 2.5rem;
+    font-family:Helvetica, Tahoma, ;
+    margin: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 8px;
+    border: 1px solid black;
+    outline:none;
+    border-radius: 20px;
+}
+.form button{
+    padding:12px 30px;
+    width:120px;
+    margin-top: 25px;
+    background-color: rgba(19, 16, 9, 0.263);
+    color: azure;
+    font-weight: lighter;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.form button:hover{
+    cursor: pointer;
+    background-color:#453829;
+    margin-top: 20px;
+    opacity: 0.9;
+    width: 100%;
+}
+.form a{
+    text-decoration: none;
+    color:black;
+    margin-top: 20px;
+   
+}
+.form a:hover{
+    color:rgba(251, 252, 253, 0.94);
+}
+
+
+/*right side*/
+.side{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: brown;
+
+}
+.side img{
+    width: 50%;
+    height: 50%;
+} 
+ 
